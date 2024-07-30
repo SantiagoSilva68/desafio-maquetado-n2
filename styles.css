@@ -1,0 +1,641 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor--general{
+    max-width:1440px;
+    height: 3677px;
+    margin: 0 auto;
+}
+.contenedor--superior{
+    width: 100%;
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./imagenes/puntitos.png");   
+}
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+@media(min-width: 1440px){
+    .header{
+        width: 100%;
+        height: 140px;
+        margin-top:36px;
+    }   
+}
+.logo{
+    width: 54px;
+    height: 50px;
+    margin-left: 17px;
+}
+@media(min-width: 1440px){
+    .logo{
+        width: 95px;
+        height: 109px;
+        margin-left: 80px;
+        margin-bottom: 25px;
+    }
+}
+.contenedor-barritas{
+    width: 36px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 20px
+}
+@media(min-width: 1440px){
+    .contenedor-barritas{
+    flex-direction: row;
+    width: 428px;
+    height: 28px;
+    margin-bottom: 110px;
+    margin-top: 26px;
+    margin-right: 103px;
+}
+}
+.barritas-1{
+    width: 36px;
+    height: 6px;
+    background-color: black;
+    font-size: 0px;
+}
+@media(min-width: 1440px){
+    .barritas-1{
+        background-color: initial;
+        font-size: 24px;
+        font-family: "Roboto", sans-serif;
+        width: 142px;
+        height: 28px;
+        font-weight: 1000;
+        line-height: 28px;
+    }
+}
+.barritas-2{
+    width: 36px;
+    height: 6px;
+    background-color: black;
+    font-size: 0px;
+}
+@media(min-width: 1440px){
+    .barritas-2{
+        background-color: initial;
+        font-size: 24px;
+        font-family: "Roboto", sans-serif;
+        width: 142px;
+        height: 28px;
+        font-weight: 1000;
+        line-height: 28px;
+    }
+}
+.barritas-3{
+    width: 36px;
+    height: 6px;
+    background-color: black;
+    font-size: 0px;
+}
+@media(min-width: 1440px){
+    .barritas-3{
+        background-color: initial;
+        font-size: 24px;
+        font-family: "Roboto", sans-serif;
+        width: 142px;
+        height: 28px;
+        font-weight: 1000;
+        line-height: 28px;
+    }
+}
+.imagen-marce{
+    width: 318px;
+    height: 300px;
+}   
+@media(min-width: 1440px){
+    .imagen-marce{
+        width: 435px;
+        height: 395px;
+        margin-right: 84px;
+    } 
+}
+
+@media(min-width: 1440px){
+    .contenedor-texto-imagen{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 395px;
+        margin-right: 301;
+    }
+}
+.texto-bienvenida{
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    text-align: center;
+    width: 291px;
+    height: 96px;
+    margin-bottom: 58px;
+    margin-top: 94px;
+}
+@media(min-width: 1440px){
+    .texto-bienvenida{
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    text-align:left;
+    width: 313px;
+    height: 96px;
+    margin: 0;
+    margin-bottom: 260px;
+    margin-left: 80px
+}
+}
+
+.contenedor-segundo{
+    background-color:#141414;
+    width: 100%;
+    height: 538px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(min-width: 1440px){
+    .contenedor-segundo{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:space-evenly;   
+        width: 100%;
+        height: 538px;
+        align-items:normal;
+    }
+}
+@media(min-width: 1440px){
+    .contenedor-textos{
+        display: block;
+        width: 532px;
+        height: 237px;
+        margin-top: 150px;
+        margin-right: 301px;
+        margin-left: 90px;
+    }
+}
+.titulo-marce{
+    width: 271px;
+    height: 44px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 55px;
+}
+@media(min-width: 1440px){
+.titulo-marce{
+    width: 271px;
+    height: 44px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    text-align: left;
+    margin: 0;
+}
+}
+.lorem{
+    color: white;
+    width: 312px;
+    height: 193px;
+    margin-bottom: 57px;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+@media(min-width: 1440px){
+    .lorem{
+        color: white;
+        width: 532px;
+        height: 165px;
+        text-align: left;
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        margin-top: 28px;
+    }
+}
+.check{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 68px;
+}
+@media(min-width: 1440px){
+    .check{
+        width: 211px;
+        height: 211px;
+        margin-bottom: 0px;
+        margin-top: 145px;
+        margin-left: 306px;
+    }
+}
+.contenedor--tercero{
+    width: 100%;
+    height: 1375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+@media(min-width: 1440px){
+    .contenedor--tercero{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 604px;
+    }
+}
+.titulo-principal{
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    text-align: center;
+    width: 271px;
+    height: 55px;
+    margin-top: 70px;
+    margin-bottom: 43.42px;
+}
+@media(min-width: 1440px){
+    .titulo-principal{
+        font-family: "Open Sans", sans-serif;
+        font-size: 48px;
+        text-align: center;
+        width: 403px;
+        height: 53px;
+        margin: 0;
+        margin-bottom: 71px;
+    }
+}
+.computadora{
+    width: 138px;
+    height: 138px;
+    margin-bottom: 14px;
+}
+@media(min-width: 1440px){
+    .computadora{
+        width: 211px;
+        height: 211px;
+        margin: 0;
+    }
+}
+.titulo-servicios{
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    width: 271px;
+    height: 28px;
+}
+.lorem-servicios{
+    width: 262px;
+    height: 117px;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: 15px;
+}
+.contenedor-servicio-primero{
+    width: 271px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(min-width: 1440px){
+    .contenedor-servicio-primero{
+        width: 271px;
+        height: 312px;
+        margin: 0;
+        margin-left: 80px;
+    }
+}
+.contenedor-servicio-segundo{
+    width: 271px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 104px;
+    margin-top: 104px;
+}
+@media(min-width: 1440px){
+    .contenedor-servicio-segundo{
+        width: 271px;
+        height: 312px;
+        margin: 0;
+    }
+}
+.contenedor-servicio-tercero{
+    width: 271px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 66px;
+    margin-top: 0px;
+}
+@media(min-width: 1440px){
+    .contenedor-servicio-tercero{
+        width: 271px;
+        height: 312px;
+        margin: 0;
+        margin-right: 80px;
+    }
+}
+@media(min-width: 1440px){
+    .contenedor-computadoras{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 103px;
+    }
+}
+
+@media(min-width: 1440px){
+    .contenedor-cajas{
+        display: flex;
+        flex-direction: column;
+        width: 335px;
+        margin-right: 489px;
+    }
+}
+.contenedor-cuarto{
+    background-color: #141414;
+    width: 100%;
+    height: 660px;
+    display: inline-block;
+}
+@media(min-width: 1440px){
+    .contenedor-cuarto{
+        width: 100%;
+        height: 604px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.escribime{
+    width: 271px;
+    height: 55.81px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin: 69.76px 52px 36.42px 52px
+}
+@media(min-width: 1440px){
+    .escribime{
+    width: 271px;
+    height: 55.81px;
+    font-size: 48px;
+    margin: 0;
+    margin-left:304px;
+    margin-top: 65px;
+    margin-bottom: 488.19px;
+    margin-right: 77px;
+    }   
+ }
+.label-nombre{
+    width: 54px;
+    height: 15px;
+    color: white;
+    font-size: 13px;
+    margin-left: 20px;
+}
+@media(min-width: 1440px){
+    .label-nombre{
+        width: 54px;
+        height: 15px;
+        color: white;
+        font-size: 13px;
+        margin: 0;
+    }
+}
+.label-email{
+    width: 38px;
+    height: 15px;
+    color: white;
+    font-size: 13px;
+    margin-left: 20px
+}
+@media(min-width: 1440px){
+    .label-email{
+        width: 54px;
+        height: 15px;
+        color: white;
+        font-size: 13px;
+        margin: 0;
+    }
+}
+.label-mensaje{
+    width: 50px;
+    height: 15px;
+    color: white;
+    font-size: 13px;
+    margin-left: 20px
+}
+@media(min-width: 1440px){
+    .label-mensaje{
+        width: 54px;
+        height: 15px;
+        color: white;
+        font-size: 13px;
+        margin: 0;
+    }
+}
+.input-nombre{
+    width: 335px;
+    height: 45px;
+    border-radius: 4px;
+    border: 3px;
+    border-color: #2C2C2C;
+    padding: 0px;
+    margin-bottom:9px;
+    display:inline-block;
+    margin-left: 20px;
+    margin-bottom: 27px;
+}
+@media(min-width: 1440px){
+    .input-nombre{
+    margin-left: 0px;
+    }
+}
+.input-email{
+    width: 335px;
+    height: 45px;
+    border-radius: 4px;
+    border: 3px;
+    border-color: #2C2C2C;
+    padding: 0px;
+    margin-left: 20px;
+    margin-bottom: 21px;
+}
+@media(min-width: 1440px){
+    .input-email{
+    margin-left: 0px;
+    }
+}
+.input-mensaje{
+    width: 335px;
+    height: 113px;
+    border-radius: 4px;
+    border: 3px;
+    border-color: #2C2C2C;
+    padding: 0px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+@media(min-width: 1440px){
+    .input-mensaje{
+    margin-left: 0px;
+    }
+}
+.button{
+    width: 335px;
+    height: 45px;
+    background-color: #FFD953;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 4px;
+    border-color:#2C2C2C;
+    border:none;
+    margin-left: 20px;
+    margin-bottom: 70px;
+}
+@media(min-width: 1440px){
+    .button{
+    margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 1440px){
+    .contenedor-copy{
+        width: 112px;
+        height: 120px;
+        margin: 98px 0px 120px 80px;
+    }
+}
+.contenedor-quinto{
+    width: 100%;
+    height: 493px;
+    background-color:  #eeeeee;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./imagenes/puntitos.png");
+}
+@media(min-width: 1440px){
+    .contenedor-quinto{
+        width: 100%;
+        height: 346px;
+        background-color:  #eeeeee;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.logo-footer{
+    width: 77px;
+    height: 71px;
+    margin-top: 53px;
+    margin-left: 16px;
+}
+@media(min-width: 1440px){
+    .logo-footer{
+        width: 112px;
+        height: 103px;
+        margin: 0px;
+    }
+}
+.logo-footer-instagram{
+    width: 27px;
+    height: 27px;
+    margin-left: 20px;
+}
+.logo-footer-linkedin{
+    width: 27px;
+    height: 27px;
+    margin-left: 20px;
+}
+.logo-footer-github{
+    width: 27px;
+    height: 27px;
+    margin-left: 20px;
+}
+.copyright{
+    width: 83px;
+    height: 15px;
+    font-size: 13px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+@media(min-width: 1440px){
+    .copyright{
+        width: 83px;
+        height: 15px;
+        font-size: 13px;
+        margin: 0px;
+    }
+}
+.texto-logo{
+    width: 73px;
+    height: 19px;
+    font-size: 16px;
+    margin-left: 6px;
+
+}
+.contenedor-ig{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contenedor-linkedin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contenedor-github{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+@media(min-width: 1440px){
+.contenedor-redes{
+    height: 153px;
+    margin-top:95px;
+    margin-right:215px;
+}
+}
